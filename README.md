@@ -99,11 +99,7 @@ The assessment does not establish the security or compliance status of a real or
 The project's Security Governance & GRC documentation is available in Confluence.
 
 [View Aegis Digital GRC Documentation](https://marilenablanchi1998.atlassian.net/wiki/x/kgEB)
----
 
-**Author:** Marilena Blanchi
-
-**Project Type:** Independent Security Governance & GRC Portfolio Case Study
 
 
 
