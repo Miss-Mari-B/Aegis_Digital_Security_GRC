@@ -94,6 +94,18 @@ Risk Assessment · Security Governance · Control Monitoring · Evidence Managem
 This is an independent educational portfolio project based on a limited synthetic dataset.
 
 The assessment does not establish the security or compliance status of a real organization. Proposed corrective actions must not be interpreted as completed remediation.
+## Confluence Documentation
+
+The project's Security Governance & GRC documentation is available in Confluence.
+
+[View Aegis Digital GRC Documentation](https://marilenablanchi1998.atlassian.net/wiki/x/kgEB)
+---
+
+**Author:** Marilena Blanchi
+
+**Project Type:** Independent Security Governance & GRC Portfolio Case Study
+
+
 
 ---
 
