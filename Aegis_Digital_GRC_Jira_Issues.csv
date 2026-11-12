@@ -1,0 +1,118 @@
+﻿Riepilogo,Chiave di ticket,ID ticket,Tipo ticket,Stato,Chiave di progetto,Nome del progetto,Tipo di progetto,Coordinatore progetto,ID coordinatore progetto,Descrizione del progetto,Priorità,Risoluzione,Assegnatario,ID assegnatario,Richiedente,ID richiedente,Creatore,ID creatore,Creati,Aggiornato,Ultimo visualizzato,Risolti,Data di scadenza,Voti,Descrizione,Ambiente,Osservatori,ID osservatori,Stima originale,Stima rimanente,Tempo impiegato,Percentuale di lavoro,Σ stima originale,Stima rimanente Σ,Σ Tempo impiegato,Livello di sicurezza,Campo personalizzato (Colore ticket),Campo personalizzato (Data di inizio),Campo personalizzato (Posizione),Campo personalizzato (Team),Campo personalizzato (Vulnerabilità),Campo personalizzato (development),Commento,Commento,Categoria dello stato,Categoria dello stato cambiata,Principale,Identificatore principale,Parent summary
+Task 1,KAN-1,10009,Feature,In corso,KAN,Aegis Digital - GRC Program,software,Marilena Blanchi,712020:3be99fa7-e7e4-4055-9ac0-8ec81ca52bb2,,,,,,Marilena Blanchi,712020:3be99fa7-e7e4-4055-9ac0-8ec81ca52bb2,Marilena Blanchi,712020:3be99fa7-e7e4-4055-9ac0-8ec81ca52bb2,23/ott/26 5:31 PM,23/ott/26 5:31 PM,,,30/ott/26 12:00 AM,0,,,Marilena Blanchi,712020:3be99fa7-e7e4-4055-9ac0-8ec81ca52bb2,,,,,,,,,,,0|i0001w:,,,{},,,In corso,23/ott/26 5:31 PM,,,
+Task 2,KAN-2,10010,Task,In corso,KAN,Aegis Digital - GRC Program,software,Marilena Blanchi,712020:3be99fa7-e7e4-4055-9ac0-8ec81ca52bb2,,,,,,Marilena Blanchi,712020:3be99fa7-e7e4-4055-9ac0-8ec81ca52bb2,Marilena Blanchi,712020:3be99fa7-e7e4-4055-9ac0-8ec81ca52bb2,23/ott/26 5:31 PM,23/ott/26 5:31 PM,,,06/nov/26 12:00 AM,0,,,Marilena Blanchi,712020:3be99fa7-e7e4-4055-9ac0-8ec81ca52bb2,,,,,,,,,,,0|i00022:,,,{},,,In corso,23/ott/26 5:31 PM,,,
+Sottotask 2.1,KAN-3,10011,Subtask,In revisione,KAN,Aegis Digital - GRC Program,software,Marilena Blanchi,712020:3be99fa7-e7e4-4055-9ac0-8ec81ca52bb2,,,,,,Marilena Blanchi,712020:3be99fa7-e7e4-4055-9ac0-8ec81ca52bb2,Marilena Blanchi,712020:3be99fa7-e7e4-4055-9ac0-8ec81ca52bb2,23/ott/26 5:31 PM,23/ott/26 5:31 PM,,,,0,,,Marilena Blanchi,712020:3be99fa7-e7e4-4055-9ac0-8ec81ca52bb2,,,,,,,,,,,0|i0002f:,,,{},,,In corso,23/ott/26 5:31 PM,,,
+R001 - Verify Cloud Access Permissions and MFA Controls,KAN-4,10012,Task,In corso,KAN,Aegis Digital - GRC Program,software,Marilena Blanchi,712020:3be99fa7-e7e4-4055-9ac0-8ec81ca52bb2,,Medium,,Marilena Blanchi,712020:3be99fa7-e7e4-4055-9ac0-8ec81ca52bb2,Marilena Blanchi,712020:3be99fa7-e7e4-4055-9ac0-8ec81ca52bb2,Marilena Blanchi,712020:3be99fa7-e7e4-4055-9ac0-8ec81ca52bb2,23/ott/26 5:46 PM,12/nov/26 3:26 PM,12/nov/26 5:45 PM,,,0,"Risk ID: R001
+
+Business Area: IT & Cloud Infrastructure
+
+Asset: Cloud Document Storage
+
+
+
+Objective:
+
+Verify cloud access permissions and MFA controls to assess potential unauthorized access risks.
+
+
+
+Activities:
+
+# Request the current list of authorized users.
+
+# Review assigned access privileges.
+
+# Verify MFA configuration and coverage.
+
+# Check the date of the latest access review.
+
+# Document findings and identify potential control gaps.
+
+
+
+Acceptance Criteria:
+
+* Access permissions have been reviewed.
+
+* MFA configuration and coverage have been assessed.
+
+* Findings and evidence gaps have been documented.
+
+* Risk Register R001 has been updated.
+
+
+
+Note: Independent GRC portfolio simulation. No real company data is used.",,Marilena Blanchi,712020:3be99fa7-e7e4-4055-9ac0-8ec81ca52bb2,,,,,,,,,,,0|i0002k:,,,{},23/ott/26 6:14 PM;712020:3be99fa7-e7e4-4055-9ac0-8ec81ca52bb2;Initial access review initiated. Five simulated user accounts have been recorded in the Access Review Log. Two accounts (U003 and U005) have been flagged for further investigation due to disabled MFA and outdated access reviews. Access privileges and supporting evidence remain pending validation. Risk Register R001 remains under assessment.,"23/ott/26 8:35 PM;712020:3be99fa7-e7e4-4055-9ac0-8ec81ca52bb2;*MFA Control Assessment Update*
+
+Control ID: CTRL-002
+
+The initial review of the simulated access export identified two accounts (U003 and U005) with MFA disabled.
+
+Further validation is required to confirm MFA configuration, approved exceptions and compensating controls.
+
+Assessment status: Potential Control Gap — Under Investigation.
+
+Next action: Request supporting evidence from the IT Infrastructure team.",In corso,23/ott/26 6:08 PM,,,
+Request MFA Configuration Evidence - CTRL - 002,KAN-5,10013,Subtask,Completata,KAN,Aegis Digital - GRC Program,software,Marilena Blanchi,712020:3be99fa7-e7e4-4055-9ac0-8ec81ca52bb2,,Medium,Completato,,,Marilena Blanchi,712020:3be99fa7-e7e4-4055-9ac0-8ec81ca52bb2,Marilena Blanchi,712020:3be99fa7-e7e4-4055-9ac0-8ec81ca52bb2,23/ott/26 8:36 PM,26/ott/26 6:14 PM,26/ott/26 6:12 PM,25/ott/26 7:07 PM,,0,"*Objective:* Obtain supporting evidence to validate the effectiveness of the MFA control.
+
+*Evidence requested:* MFA configuration report. List of users with MFA disabled. Approved MFA exceptions. Documentation of compensating controls.
+
+*Related Control:* CTRL-002
+
+*Related Risk:* R001
+
+*Parent Ticket:* KAN-4",,Marilena Blanchi,712020:3be99fa7-e7e4-4055-9ac0-8ec81ca52bb2,,,,,,,,,,,0|i0002w:,,,{},26/ott/26 6:14 PM;712020:3be99fa7-e7e4-4055-9ac0-8ec81ca52bb2;MFA configuration evidence has been reviewed and documented under EV-001. The initial assessment identified an MFA control gap affecting U005 and an approved temporary exception for U003. Remediation of the U005 finding was tracked separately under [https://marilenablanchi1998.atlassian.net/browse/KAN-6|https://marilenablanchi1998.atlassian.net/browse/KAN-6|smart-link] and verified through EV-002. Evidence collection activity completed.,,Completato,25/ott/26 7:07 PM,10012,KAN-4,R001 - Verify Cloud Access Permissions and MFA Controls
+Remediate MFA Control GAP for U005 - CTRL - 002,KAN-6,10014,Subtask,Completata,KAN,Aegis Digital - GRC Program,software,Marilena Blanchi,712020:3be99fa7-e7e4-4055-9ac0-8ec81ca52bb2,,Medium,,,,Marilena Blanchi,712020:3be99fa7-e7e4-4055-9ac0-8ec81ca52bb2,Marilena Blanchi,712020:3be99fa7-e7e4-4055-9ac0-8ec81ca52bb2,24/ott/26 7:12 PM,25/ott/26 7:05 PM,26/ott/26 5:40 PM,,,0,"*Finding:* MFA is disabled for user U005. No approved exception or documented compensating control was identified during the control assessment. 
+
+*Required Action:* Enable MFA for U005 or formally, document and approve an exception with appropriate compensating controls.
+
+*Related Control:* CTRL-002
+
+*Related Risk:* R001
+
+*Evidence:* EV-001
+
+*Parent Ticket:* [https://marilenablanchi1998.atlassian.net/browse/KAN-4|https://marilenablanchi1998.atlassian.net/browse/KAN-4|smart-link]",,Marilena Blanchi,712020:3be99fa7-e7e4-4055-9ac0-8ec81ca52bb2,,,,,,,,,,,0|i00030:,,,{},"24/ott/26 8:23 PM;712020:3be99fa7-e7e4-4055-9ac0-8ec81ca52bb2;*Remediation Closure Validation*
+
+Remedation evidence EV-002 has been reviewed and validated. MFA is now enabled for U005. The identified CTRL-002 control gap for U005 has been remediated and closure evidence has been documented.",,Completato,25/ott/26 7:05 PM,10012,KAN-4,R001 - Verify Cloud Access Permissions and MFA Controls
+Request User Access and Approval Evidence - CTRL-001,KAN-7,10015,Subtask,Da completare,KAN,Aegis Digital - GRC Program,software,Marilena Blanchi,712020:3be99fa7-e7e4-4055-9ac0-8ec81ca52bb2,,Medium,,,,Marilena Blanchi,712020:3be99fa7-e7e4-4055-9ac0-8ec81ca52bb2,Marilena Blanchi,712020:3be99fa7-e7e4-4055-9ac0-8ec81ca52bb2,25/ott/26 5:39 PM,26/ott/26 6:52 PM,26/ott/26 6:50 PM,,,0,"*Objective:* Request and validate access rights documentation for CTRL-001 - Access Rights Management.
+
+*Required Evidence:* 
+
+# Current user access list and assigned permissions.
+# Formal access approval records.
+# Business justification for privileged access assigner to u003 (Sales-Admin).
+# Authorization and scope of write permissions assigned to U005 (External Vendor).
+
+*Related Risk:* R001
+
+*Related Control:* CTRL-001
+
+*Evidence Reference:* EV-003
+
+*Parent Ticket:* KAN-4
+
+*Expected Outcome:* Determine whether the assigned permissions are appropriate, justified and formally approved.
+
+*Status:* Evidence Requested - Pending Receipt.",,Marilena Blanchi,712020:3be99fa7-e7e4-4055-9ac0-8ec81ca52bb2,,,,,,,,,,,0|i0003b:,,,{},,,Da completare,25/ott/26 5:39 PM,10012,KAN-4,R001 - Verify Cloud Access Permissions and MFA Controls
+Request Periodic Access Review Evidence - CTRL - 003,KAN-8,10016,Subtask,Da completare,KAN,Aegis Digital - GRC Program,software,Marilena Blanchi,712020:3be99fa7-e7e4-4055-9ac0-8ec81ca52bb2,,Medium,,,,Marilena Blanchi,712020:3be99fa7-e7e4-4055-9ac0-8ec81ca52bb2,Marilena Blanchi,712020:3be99fa7-e7e4-4055-9ac0-8ec81ca52bb2,25/ott/26 6:42 PM,25/ott/26 6:46 PM,26/ott/26 6:53 PM,,,0,"*Objective:* Request supporting evidence to assess CTRL-003 - Periodic Access Review. 
+
+*Required Evidence:* 
+
+# Periodic access review records for sampled users U001-U005.
+# Dates of the most recent access reviews.
+# Formal review approvals and reviewer details.
+# Documentation of any identified access issues and follow-up actions.
+# applicable access review frequency or policy.
+
+*Related Risk:* R001
+
+*Related control:* CTRL-003
+
+*Evidence Reference:* EV-004
+
+*Parent Ticket:* [https://marilenablanchi1998.atlassian.net/browse/KAN-4|https://marilenablanchi1998.atlassian.net/browse/KAN-4|smart-link]
+
+*Expected Outcome:* Verify whether user access permissions are periodically reviewed, documented and formally approved.
+
+*Status:* Evidence Request Documented - Pending Receipt.",,Marilena Blanchi,712020:3be99fa7-e7e4-4055-9ac0-8ec81ca52bb2,,,,,,,,,,,0|i0003e:,,,{},,,Da completare,25/ott/26 6:42 PM,10012,KAN-4,R001 - Verify Cloud Access Permissions and MFA Controls

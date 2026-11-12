@@ -1,0 +1,2 @@
+"risk_id","risk_description","inherent_risk_score","control_id","control_name","control_status","assessment_result","evidence_id","evidence_description","request_status"
+"R001","Potential unauthorized access to Cloud Document Storage",12,"C001","Periodic User Access Review","Pending","Partially Effective","EV-001","User Access Review Report","received"
